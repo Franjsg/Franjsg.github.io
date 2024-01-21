@@ -1,0 +1,617 @@
+<!--
+ si estas viendo esto es porque eres desarrollad@r, reclutador/a o ambas cosas. 
+ante todo quiero agradecerte que dediques tu tiempo para ver mi presentación.
+
+He creado una presentación sencilla que quiero poder ir mejorándo poco a poco añadiendo toda la experiencia que vaya consiguiendo a lo largo de los años, algo que espero que, si es posible, me ayudes 😊.
+
+Si tienes cualquier consulta o puedo ayudarte como desarrollador, estoy a tu disposición.
+
+vamos a crear algo impresionantes!
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      
+        <link rel="icon" href="./media/img/icono.png">
+    <!-- personal CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- CDN BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+
+    <!-- google font 8bit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Tangerine:bold|Inconsolata:italic|Droid+Sans&effect=shadow-multiple|3d-float" rel="stylesheet">
+    <title>FJSG</title>
+</head>
+
+<body class="container-fluid">
+    <!-- language selector -->
+    <p id="language-cont">
+        <a class="text-decoration-none" style="color: var(--white-color)" href=" ./indexEn.html"><i class="bi bi-flag"></i> Spanish</a>
+            
+    </p>
+    <p id="languageSel"><i class="bi bi-arrow-90deg-up"></i> click for English</p>
+    </p>
+    
+    <!-- Projects -->
+    <div id="projects-w">
+        <!-- bar window -->
+        <div id="projects-sup">
+            <span>Mis proyectos</span>
+            <span>X</span>
+        </div>
+        <!-- content -->
+        <div class="container-fluid">
+            <div id="projects-cont" class="row">
+            </div>
+        </div>
+    </div>
+
+    <!-- above the fold -->
+    <div class="heading container">
+        <div class="row container-fluid col-12">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center cabecera">
+                <div class="text-header">
+                    <h3 class="fs-3">
+                        <p class="cab-1 animate__animated animate__backInLeft">¡Hola! mi nombre es <b class="animate__animated animate__backInLeft cab-1">Fran</b></p>
+                        <span class="cab-2">Soy / <span id="typed"></span></span>
+                        <p id="jocker" class="fs-6 mt-3 fst-italic d-inline-block"></p>
+                    </h3>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center cab-3">
+                <div class="img-header cab-3-cont">
+                    <img class="cab-3 img-fluid img-cab" src="./media/img/yo_1.png" alt="">
+                    <p class="opacity-75 icon el1">
+                        <img src="./media/img/music-notes.png" alt="">
+                    </p>
+                    <p class="opacity-75 icon el2"><img src="./media/img/music.png" alt=""></p>
+                    <!-- <p class="fs-2 opacity-75 icon el3">
+                        { }
+                    </p>
+                    <p class="fs-2 opacity-75 icon el4">{{ }}
+                    </p> -->
+                </div>
+            </div>
+        </div>
+        <div class="arrow-down container-fluid d-flex justify-content-center align-items-center mt-5">
+            <div class="row arrow-down-move">
+                <div class="col-12 d-flex flex-column justify-content-center">
+                    <div class="text-center">
+                        <p class="mb-0 p1">sigue bajando</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <i class="bi bi-arrow-bar-down fs-1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FINAL ABOVE THE FOLD -->
+
+    <!-- first section -->
+    <div class="container-fluid mt-4">
+        <div class="col-12">
+            <div class="row">
+               <section>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="pt-6 title-first"> /¿Quien soy? </h1>
+            </div>
+        </div>
+        <div class="row mt-2 txt-1 d-flex align-items-center">
+            <div class="col-12 p-4">
+                <h4 class="mb-3"> > Información básica</h4>
+                <p class="descript">-> Soy un programador junior con especialización en el
+                    <span style="color: #fff000">desarrollo de software</span> y un apasionado del mundo del
+                    desarrollo de aplicaciones y sitios web. Mi interés
+                    también se extiende al ámbito de la administración de
+                    sistemas. Cuento con conocimientos sólidos en diversas
+                    tecnologías, tanto punteras como clásicas.</p>
+            </div>
+        </div>
+                </section>  
+            </div>
+        </div>
+   
+    </div>
+    <!-- second section -->
+
+    <section class="sectionSkills container-fluid mt-4">
+        <div class="row title-second">
+            <div class="col-12">
+                <h1 class="title second p-4"> /Skills </h1>
+            </div>
+        </div>
+        <div class="row">
+            <span class="col-6 col-md-2 icons skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/bootstrap.png">
+                <p class="mb-0">Bootstrap</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+            <span class="position-relative col-6 col-md-2 icons2 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/css-3.png">
+                <p class="mb-0">CSS3</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+            <span class="col-6 col-md-2 icons3 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/html-5.png">
+                <p class="mb-0">HTML5</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+            <span class="col-6 col-md-2 icons4 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/js.png">
+                <p class="mb-0">Javascript</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+            <span class="col-6 col-md-2 icons5 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/bash.png">
+                <p class="mb-0">Bash Terminal</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+            <span class="col-6 col-md-2 icons6 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/git.png">
+                <p class="mb-0">Git</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+            <span class="col-6 col-md-2 icons7 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/php.png">
+                <p class="mb-0">PHP</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/laravel.png">
+                <p class="mb-0">Laravel</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/mysql.png">
+                <p class="mb-0">MySQL</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/vue.jpg">
+                <p class="mb-0">Vue.JS</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/nodejs.jpg">
+                <p class="mb-0">Node.JS</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/react.png">
+                <p class="mb-0">React</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/asp.jpg">
+                <p class="mb-0">ASP.NET</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/scss.jpg">
+                <p class="mb-0">Saas</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/jquery.jpg">
+                <p class="mb-0">jQuery</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/jira.png">
+                <p class="mb-0">Jira (Gestión de proyectos)</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/scrum.jpg">
+                <p class="mb-0">Scrum (Agilismo)</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/angular.png">
+                <p class="mb-0">Angular JS</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/simfo.jpg">
+                <p class="mb-0">Simfony</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/word.png">
+                <p class="mb-0">WordPress</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/processwire.png">
+                <p class="mb-0">ProcessWire</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/play.jpg">
+                <p class="mb-0">FAP (Play framework)</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/java.jpg">
+                <p class="mb-0">Java</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/pynthon.jpg">
+                <p class="mb-0">Pynthon</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/c.png">
+                <p class="mb-0">C</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/c++.jpg">
+                <p class="mb-0">C++</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+            <span class="col-6 col-md-2 icons8 skill-icon text-center">
+                <img width="80px" class="my-3 mb-3" src="./media/icons/trello.jpg">
+                <p class="mb-0">Trello</p>
+                <p class="text-success">Approved <i class="bi bi-check-lg text-success"></i></p>
+            </span>
+
+        </div>
+    </section>
+
+    <!-- Certificates -->
+
+    <section class="sectionCertificates container-fluid my-4">
+        <div>
+            <div class="col-12">
+                <h1 class="title second p-4"> /Certificados</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="./media/img/certificates/informatica.png" alt="">
+                    </a>
+                    <p class="mt-4">GRADO EN INGENIERÍA INFORMÁTICA</p>
+                </div>
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="./media/img/certificates/voz.png" alt="">
+                    </a>
+                    <p class="mt-4">USO PROFESIONAL DE LA VOZ EN LA ATENCIÓN TELEFÓNICA</p>
+                </div>
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="./media/img/certificates/usabilidadweb.png" alt="">
+                    </a>
+                    <p class="mt-4">CURSO SUPERIOR DE USABILIDAD WEB. NIVEL PROFESIONAL</p>
+                </div>
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="./media/img/certificates/javascript.png" alt="">
+                    </a>
+                    <p class="mt-4">PROGRAMAR CON JAVASCRIPT</p>
+                </div>
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="./media/img/certificates/php.png" alt="">
+                    </a>
+                    <p class="mt-4">PROGRAMAR CON PHP</p>
+                </div>
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="./media/img/certificates/seguridad.png" alt="">
+                    </a>
+                    <p class="mt-4">TÉCNICO EN SEGURIDAD INFORMÁTICA</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid my-4">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="./media/img/certificates/servidoresweb.png" alt="">
+                    </a>
+                    <p class="mt-4">TÉCNICO EN SERVIDORES WEB</p>
+                </div>
+
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="media/img/certificates/wordpress.png" alt="">
+                    </a>
+                    <p class="mt-4">TÉCNICO PROFESIONAL EN CREACIÓN Y GESTIÓN DE BLOG + WEB 2.0 CON WORDPRESS PROFESIONAL</p>
+                </div>
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="media/img/certificates/seo.png" alt="">
+                    </a>
+                    <p class="mt-4">TÉCNICO PROFESIONAL EN CREACIÓN DE PORTALES WEB CON JOOMLA + SEO PROFESIONAL</p>
+                </div>
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="media/img/certificates/webconfig.png" alt="">
+                    </a>
+                    <p class="mt-4">INSTALACIÓN Y CONFIGURACIÓN DEL SOFTWARE DE SERVIDOR WEB</p>
+                </div>
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="media/img/certificates/pdi.png" alt="">
+                    </a>
+                    <p class="mt-4">APRENDE PENTAHO DATA INTEGRATION (PDI) DESDE CERO</p>
+                </div>
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="media/img/certificates/websssss.png" alt="">
+                    </a>
+                    <p class="mt-4">PROGRAMACIÓN DE PÁGINAS WEBS CON ASP.NET 4 (VISUAL BASIC)</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid my-4">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="/media/img/certificates/planifeve.png" alt="">
+                    </a>
+                    <p class="mt-4">TÉCNICO PROFESIONAL EN ORGANIZACIÓN, GESTIÓN Y PLANIFICACIÓN DE EVENTOS</p>
+                </div>
+
+                <div class="col-12 text-center col-md-6">
+                    <a target="_blank" href="">
+                        <img class="h-75 img-fluid img_body" src="media/img/certificates/ventas.png" alt="">
+                    </a>
+                    <p class="mt-4">ORGANIZACIÓN DE PROCESOS DE VENTA</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!---------------- proyectos --------------------->
+    <section class="container-fluid my-4">
+        <!-- script para mantener la position al cerrar el carusel -->
+        <script>
+            window.onload=function(){
+            var pos=window.name || 0;
+            window.scrollTo(0,pos);
+            }
+            window.onunload=function(){
+            window.name=self.pageYOffset || (document.documentElement.scrollTop+document.body.scrollTop);
+            }
+            </script>
+        <div>
+            <div class="col-12">
+                <h1 class="title second p-4"> /Proyectos </h1>
+            </div>
+        </div>
+        <div class="galeria container">
+            <div class="row">
+
+                <div class="col-12 text-center col-md-4">
+                    <a href="#p1" title="Click here">
+                        <!-- Puedes reemplazar la siguiente línea con la etiqueta de video -->
+                        <video class="img-fluid img_pro" autoplay muted loop controls>
+                            <source src="./media/img/certificates/Multimedia1.mp4" type="video/mp4">
+                            Tu navegador no soporta la etiqueta de video.
+                        </video>
+                    </a>
+                    <a href="" class="text-decoration-none text-light"> Virtual Fitness - Web -</a> 
+                    <a href="https://github.com/Franjsg/TFG22-23" class="text-decoration-none text-light">Ver código</a> 
+                </div>
+
+                <div class="col-12 text-center col-md-4">
+                    <a href="#p1" title="Click here">
+                        <!-- Puedes reemplazar la siguiente línea con la etiqueta de video -->
+                        <video class="img-fluid img_pro" autoplay muted loop controls>
+                            <source src="./media/img/certificates/videomda.mp4" type="video/mp4">
+                            Tu navegador no soporta la etiqueta de video.
+                        </video>
+                    </a>
+                    <a href="" class="text-decoration-none text-light"> Cortex Neurorehabilitación - Web -</a> 
+                    <a href="https://github.com/Franjsg/MDA" class="text-decoration-none text-light">Ver código</a> 
+                </div>
+
+                <div class="col-12 text-center col-md-4">
+                    <a href="#p1" title="Click here">
+                        <!-- Puedes reemplazar la siguiente línea con la etiqueta de video -->
+                        <video class="img-fluid img_pro" autoplay muted loop controls>
+                            <source src="./media/img/certificates/personalizacion2.mp4" type="video/mp4">
+                            Tu navegador no soporta la etiqueta de video.
+                        </video>
+                    </a>
+                    <a href="" class="text-decoration-none text-light"> Personalizar Personaje - Web -</a> 
+                    <a href="https://github.com/Franjsg/PersonalizarPersonaje" class="text-decoration-none text-light">Ver código</a> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- creamos un espacio donde se abre la galeria -->
+    <article class="light_box" id="p1">
+   
+    <!-- ******* -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide w-75" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+         
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+             <img src="./media/img/certificates/p1.png" class="d-block w-100" alt="No hay imagen"> 
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">    
+             <img src="./media/img/certificates/p2_111.png" class="d-block w-100" alt="..."> 
+          </div> 
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./media/img/certificates/p3_1.png" class="d-block w-100" alt="...">
+          </div> 
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./media/img/certificates/p3_2.png" class="d-block w-100" alt="...">
+          </div> 
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./media/img/certificates/p3_3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./media/img/certificates/p3_4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./media/img/certificates/p3_5.png" class="d-block w-100" alt="...">
+          </div>
+        </div> 
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        
+      </div>
+      <a href="" class="close"><i class="bi bi-x-circle text-danger fs-3"></i></a>
+    </article>
+
+    <!-- goodbye -->
+
+    <section class="container-fluid my-5 Footer">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="p-4"> /¡Hablemos! </h1>
+            </div>
+            <div class="col-12">
+                <p>Estoy muy agradecida por que hayas dedicado tu valioso tiempo en ver mi pequeña presentación
+                    ¡Espero que podamos hacer grandes cosas! Para lo que necesites podemos contactar en los siguientes enlaces.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex flex-column align-items-center ms-2">
+                <h3 class="mb-4"> > Mis redes</h3>
+                <ul class="list-unstyled mb-3">
+                    <!-- linkedin -->
+                    <li class=" Footer-1 p-3"><a class="text-decoration-none fs-6" style="color: var(--white-color)"
+                            href="https://www.linkedin.com/in/francisco-javier-s%C3%A1nchez-gonz%C3%A1lez-32058a152/" target="_blank">../ <i class="bi bi-linkedin fs-4" style="color: #0e76a8"></i>
+                            Francisco Javier Sánchez González</a></li>
+                    <!-- github -->
+                    <li class="Footer-2 p-3"><a class="text-decoration-none fs-6" style="color: var(--white-color)"
+                            href="https://github.com/Franjsg" target="_blank">../ <i
+                                class="bi bi-github fs-4"></i> Fran</a></li>
+                    <!-- email -->
+                    <li class="Footer-3 p-3"><a class="text-decoration-none fs-6" style="color: var(--white-color)"
+                        href="mailto:franciscojsg1999@gmail.com" target="_blank">../ <i
+                                class="bi bi-envelope fs-4"></i> franciscojsg1999@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- curriculum button -->
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-12">
+                    <button id="btn-curriculum" class="btn-curriculum"><a class="text-decoration-none text-white"
+                            href="./media/img/certificates/Mi_CV.pdf">CURRICULUM</a></button>
+                           
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="container-fluid downFooter">
+        <div class="row d-flex justify-content-space-between">
+            <div>
+                <p class="m-4" style="font-size: 12px;">Tienes derecho a copiar el codigo en github, modificalo y hacer lo que quieras, para mí sería todo un honor. Sientete libre.  <img src="./media/img/sonrisa.png" alt="">
+                </p>
+            </div>
+            <div class="d-flex justify-content-end mb-3 pe-2 fixed-bottom">
+                <a href="#"><img src="./media/img/up.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SCRIPTS -->
+
+    <!-- Import typed.min.js file from typed.js folder -->
+    <script src="./typed.js-master/lib/typed.min.js">
+    </script>
+
+    <!-- Add jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+
+    <!-- Add this script for successful implementation of typed.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <!-- Momentsjs -->
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+    <!-- personal javascript -->
+    <script src="./javascript.js"></script>
+
+</body>
+
+</html>
