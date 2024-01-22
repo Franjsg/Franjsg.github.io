@@ -80,8 +80,8 @@ function icons () {
 
     itemsItered.forEach(e => {
         e.classList.add("visible");
-        console.log(aplicado al elemento ${e})
-    })
+        console.log(`aplicado al elemento ${e}`);
+    });
 }
 
 observador.observe(items);
