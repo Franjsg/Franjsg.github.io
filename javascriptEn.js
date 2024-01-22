@@ -80,7 +80,7 @@ function icons () {
 
     itemsItered.forEach(e => {
         e.classList.add("visible");
-        console.log(`aplicado al elemento ${e}`)
+        console.log(aplicado al elemento ${e})
     })
 }
 
@@ -109,11 +109,12 @@ window.onscroll = function() {
 };
 
 
-/* Typed.js */
+/* Typed.js */ 
 let typed = new Typed("#typed", {
     strings: [
         '<span class="saludo">developer</span>',
         '<span class="saludo">programmer</span>',
+        '<span class="saludo">investigator</span>',
         '<span class="saludo">creator</span>',
         '<span class="saludo">curious</span>',
         '<span class="saludo">dreamer</span>'
@@ -129,7 +130,7 @@ let typed = new Typed("#typed", {
 
 let age = document.querySelector(".age");
 
-var years = moment().diff('2002-02-24', 'years');
+var yearsEn = moment().diff('1981-03-24', 'years');
 console.log("desde aqui edad")
 console.log(years)
 
@@ -178,4 +179,3 @@ age.innerHTML = years;
         jocker.innerHTML = "no hay chiste"
     }
  })
-
